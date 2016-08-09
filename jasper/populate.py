@@ -11,9 +11,11 @@ import paths
 def run():
     profile = {}
 
-    print("Welcome to the profile populator. If, at any step, you'd prefer " +
-          "not to enter the requested information, just hit 'Enter' with a " +
-          "blank field to continue.")
+    print("\nHi i'm Jasper and welcome to the profile populator." +
+          "If, at any step, you'd prefer " +
+          "not to enter the requested information," +
+          "just hit 'Enter' with a " +
+          "blank field to continue.\n")
 
     def simple_request(var, cleanVar, cleanInput=None):
         input = raw_input(cleanVar + ": ")
@@ -27,16 +29,25 @@ def run():
     simple_request('last_name', 'Last name')
     simple_request('keyword', 'What is my Name?')
 
+<<<<<<< HEAD
     #language
 
     language = raw_input("\nWhat is your language ?" +
                          "available: en-US, fr-FR, de-DE: \n")
     while not language or (language != 'en-US' and language != 'fr-FR'
+=======
+    # language
+
+    language = raw_input("\nWhat is your language ?" +
+                         "available: en-US, fr-FR, de-DE : \n")
+    while not language or (language != 'en-US' and language != 'fr-FR' 
+>>>>>>> 766940f61b7867fc2f3ac1c830efe88521e00ab6
                            and language != 'de-DE'):
         print (language)
         language = raw_input("\nPlease choose your language," +
                              "available: en-US, fr-FR, de-DE : \n")
     profile['language'] = language
+<<<<<<< HEAD
 
     # gmail
 
@@ -45,6 +56,18 @@ def run():
           "want to receive email notifications) and setup a Mailgun " +
           "account, as at http://jasperproject.github.io/documentation/" +
           "software/#mailgun.\n")
+=======
+    
+    # gmail
+          print("\nJasper uses your Gmail to send notifications." +
+                "Alternatively, " +
+                "you can skip this step " + 
+                "(or just fill in the email address if you " +
+                "want to receive email notifications) and setup a Mailgun " +
+                "account, as at " + 
+                "http://jasperproject.github.io/documentation/" +
+                "software/#mailgun.\n")
+>>>>>>> 766940f61b7867fc2f3ac1c830efe88521e00ab6
     simple_request('gmail_address', 'Gmail address')
     # FIXME This needs to be anything but plaintext.
     profile['gmail_password'] = getpass()
