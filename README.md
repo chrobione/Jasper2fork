@@ -1,6 +1,9 @@
 # Jasper2fork
 [![Build Status](https://travis-ci.org/chrobione/Jasper2fork.svg?branch=jasper-dev)](https://travis-ci.org/chrobione/Jasper2fork) [![Coverage Status](https://img.shields.io/coveralls/chrobione/Jasper2fork.svg)](https://coveralls.io/r/chrobione/Jasper2fork) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ee172c51010b469491bf437538cfa5ec)](https://www.codacy.com/app/chrobione/Jasper2fork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=chrobione/Jasper2fork&amp;utm_campaign=Badge_Grade)
 =============
+
+#THIS IS THE OLD REPOSITORY OF JASPER2FORK, NOW THE PROJECT IS [HERE](https://github.com/jasper2fork/j2f) 
+
 The current plan is to use [Discord](https://discord.gg/kSnVC9C) and Github for the day to day comms.
 
 This is the fork of the J2 fork of thejasperproject, thank you for all the work to this point and hope to merge back up with yall on the main project.
